@@ -1,0 +1,57 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Advanced Layout Manager Browser
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+supportsQt6=True
+
+description=Organise QGIS print layouts into custom groups and subgroups using a dockable browser with search, favourites and project-level storage.
+version=1.00
+author=Valerio Pinna
+email=pinnavalerio@yahoo.co.uk
+
+about=Layout Manager Browser is a QGIS productivity plugin designed to improve the management of print layouts in projects containing large numbers of figures, plans and report outputs. The plugin introduces custom groups and subgroups, search tools, favourites, colour-coded categories and batch export capabilities. Group information is stored safely within the QGIS project file, allowing project organisation to be shared between users while keeping layouts as standard QGIS layouts. Compatible with QGIS 3.x, QGIS 4.x, Qt5 and Qt6.
+
+tracker=https://github.com/ValPinnaSardinia/Advanced-Layout-Manager-Browser-QGIS-Plugin/issues
+repository=https://github.com/ValPinnaSardinia/Advanced-Layout-Manager-Browser-QGIS-Plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog=<strong>1.00</strong>
+ - First public release<br>
+ - Organise print layouts using custom groups and subgroups<br>
+ - Search, favourites and drag-and-drop management<br>
+ - Create, open and export layouts directly from the browser<br>
+ - Colour-coded groups with layout counters<br>
+ - Project-based storage shared with other users of the same project<br>
+ - Compatible with QGIS 3.28+ and QGIS 4<br>
+
+# Tags are comma separated with spaces allowed
+tags=python, layout, layouts, layout manager,print layout, print composer, pdf
+
+homepage=https://github.com/ValPinnaSardinia/Advanced-Layout-Manager-Browser-QGIS-Plugin
+category=Plugins
+icon=icon.svg
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
