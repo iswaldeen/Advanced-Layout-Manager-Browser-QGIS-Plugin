@@ -1,4 +1,14 @@
-# Advanced Layout Manager Browser
+<p align="center">
+  <img src="AdvancedLayoutManagerBrowser/icon.svg" alt="Advanced Layout Manager Browser Icon" width="128">
+</p>
+
+<h1 align="center">Advanced Layout Manager Browser</h1>
+
+<p align="center">
+  A modern dockable browser for organising and managing QGIS Print Layouts.
+</p>
+
+---
 
 Advanced Layout Manager Browser is a QGIS plugin that provides a modern dockable browser for managing Print Layouts.
 
